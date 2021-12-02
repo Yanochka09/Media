@@ -130,10 +130,6 @@ p {
     margin-left: 14px;
     margin-right: 14px;
 }
-
-/* .slider-img {
-    position: relative;
-} */
 /* end slider */
 
 
@@ -181,6 +177,6 @@ p {
     color: #ffffff;
     background: #F96241;
 }
-.slick-dotted.slick-slider {
-    margin-bottom: 0;
+/* .slick-dotted.slick-slider {
+    margin-bottom: 0; */
 /* end slick-slider */

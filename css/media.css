@@ -104,6 +104,9 @@
 }
 
 @media (max-width: 783px) {
+    .header {
+        padding: 40px 0;
+    }
     .header-logo {
         display: flex;
         flex-basis: 50%;
@@ -126,16 +129,118 @@
         width: auto; 
     }
 
-    .slider-text span {
-        margin-top: 90px;
-    }
-
     .slider-text h2 {
-        font-size: 60px;
+        font-size: 58px;
     }
 
     .slider-text p {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 579px) {
+    .header-nav {
+        flex-basis: 70%;
+    }
+    .slider-img img {
+        width: 480px;
+    }
+
+    .slick-dots {
+        bottom: 400px;
+        right: 180px;
+        display: inline-flex;
+        width: auto; 
+    }
+
+}
+
+@media (max-width: 509px) {
+    .header-nav {
+        flex-basis: 80%;
+    }
+    .slider-img img {
+        width: 400px;
+    }
+
+    .slick-dots {
+        bottom: 410px;
+        right: 180px;
+        display: inline-flex;
+        width: auto; 
+    }
+}
+
+@media (max-width: 441px) {
+    .header-nav {
+        flex-basis: 85%;
+    }
+    .ml-60px {
+        margin-left: 40px;
+    }
+    .slider-img img {
+        width: 350px;
+    }
+
+    .slick-dots {
+        bottom: 410px;
+        right: 110px;
+        display: inline-flex;
+        width: auto; 
+    }
+    .slider-text h2 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 404px) {
+    .ml-60px {
+        margin-left: 30px;
+    }
+    .slider-img img {
+        width: 350px;
+    }
+
+    .slick-dots {
+        bottom: 440px;
+        right: 110px;
+        display: inline-flex;
+        width: auto; 
+    }
+}
+
+@media (max-width: 378px) {
+    .header-nav {
+        display: none; 
+     }
+    .slider-img img {
+        width: 320px;
+    }
+
+    .slick-dots {
+        bottom: 440px;
+        right: 110px;
+        display: inline-flex;
+        width: auto; 
+    }
+    .slider-text h2 {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 348px) {
+    .header-nav {
+       display: none; 
+    }
+    .slider-img img {
+        width: 290px;
+    }
+
+    .slick-dots {
+        bottom: 470px;
+        right: 80px;
+        display: inline-flex;
+        width: auto; 
     }
 }
 /* end main media */
