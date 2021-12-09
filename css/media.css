@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .trends-text__title {
+        font-size: 35px;
+    }
+
+    .trends-inspirations__title {
+        font-size: 38px;
+    }
+
+
+    .slick-arrow {
+        top: calc(100% + 55px);
+    }
+
+    .slick-prev {
+        left: 72%;
+    }
+    
+    .slick-next {
+        left: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .trends {
+        padding: 48px 0;
+    }
+    .container {
+        max-width: 311px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .trends-slider {
+        display: none;
+    }
+
+    .trends-email {
+        display: flex;
+        flex-direction: column;
+    }
+    .trends-email__input{
+        margin-bottom: 16px;
+    }
+
+    .trends-text__link {
+        margin-bottom: 32px;
+    }
+
+    .trends-email__button {
+        margin-bottom: 64px;
+    }
+
+    .trends-inspirations__title {
+        font-size: 35px;
+        margin-bottom: 20px;
+    } 
+
+    .trends-inspirations__subtitle {
+        margin-bottom: 40px;
+    }
+
+    .trends-img-adaptive-chair {
+        margin-bottom: 20px;
+    }
+
+    .trends-img-adaptive-chair::before{
+        content: url("/img/trendsad/chair.jpg");
+    }
+
+    .trends-img-adaptive-cooked::before{
+        content: url("/img/trendsad/cooked.jpg");
+    }
+
+    .trends-img-adaptive-room::before{
+        content: url("/img/trendsad/livingroom.jpg");
+    }
+
+    .trends-img-adaptive-tables::before{
+        content: url("/img/trendsad/tables.jpg");
+    }
+}
