@@ -136,3 +136,22 @@ img {
 .slick-next:before {
     content: url('../img/trends/icon-right.svg');
 }
+
+/* footer */
+
+    .footer-antic{
+        padding: 70px 0;
+    }
+
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .products, .rooms, .services, .about, .respect {
+        display: flex;
+        flex-direction: column;
+    }
+
+/* end footer */
