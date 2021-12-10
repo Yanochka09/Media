@@ -16,6 +16,10 @@ p {
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1140px;
+}
+
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -103,8 +107,8 @@ img {
     color: #706458;
 }
 
-
 /* slider */
+
 .slick-initialized .slick-slide {
     margin: 0 15px;
 }
@@ -145,6 +149,17 @@ img {
 
     .footer-content{
         display: flex;
+    }
+
+    .logo-footer {
+        display: flex;
+        align-items: flex-start;
+        flex-basis: 15%;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-basis: 85%;
         justify-content: space-between;
     }
 
@@ -152,6 +167,62 @@ img {
     .products, .rooms, .services, .about, .respect {
         display: flex;
         flex-direction: column;
+    }
+
+    a {
+        font-family: "Varta";
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #706458;
+        list-style: 25px;
+        margin-bottom: 12px;
+    }
+
+    .nav-footer {
+        font-size: 25px;
+        color: #534B42;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+
+    .respect-img {
+        width: 235px;
+        margin-bottom: 15px;
+    }
+
+    .text-footer{
+        width: 235px;
+        font-size: 16px;
+        font-weight: 400;
+        list-style: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .social-networks {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .ml24 {
+        margin-left: 24px;
+    }
+
+    .legals {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .legals-links, .ml30 {
+        font-family: "Varta";
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(112, 100, 88, 0.7);
+    }
+
+    .ml30 {
+        margin-left: 30px;
     }
 
 /* end footer */

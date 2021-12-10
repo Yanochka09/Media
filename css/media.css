@@ -1,3 +1,4 @@
+/* trends */
 @media (max-width: 768px) {
     .container {
         max-width: 720px;
@@ -85,3 +86,94 @@
         content: url("/img/trendsad/tables.jpg");
     }
 }
+/* end trends */
+
+/* footer */
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .logo-footer{
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .products, .rooms, .services, .about, .respect {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        font-family: "Varta";
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .respect-img {
+        background-size: cover;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 311px;
+    }
+
+    .footer-antic{
+        padding: 48px 0;
+    }
+
+    .logo-footer{
+        justify-content: center;
+     }
+
+    .footer-nav{
+        flex-direction: column;
+    }
+
+    .respect-img {
+        width: 300px;
+        margin-bottom: 15px;
+    }
+
+    .nav-footer {
+        font-size: 25px;
+        color: #121212;
+    }
+
+    .text-footer{
+        width: 290px;
+        font-size: 18px;
+    }
+
+    .products, .rooms, .services, .about, .respect {
+        margin-top: 40px;
+    }
+
+    .legals {
+        flex-direction: column-reverse;
+        justify-content: start;
+    }
+
+
+    .legals-links {
+        margin-right: 24px;
+    }
+    
+    .legals-footer-link {
+        margin-bottom: 32px;
+    }
+
+    .ml30 {
+        margin-left: 0;
+    }
+    
+}
+
+/* end footer */
